@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap");
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --web-body-text-big: "Work Sans";
+
+  /* font sizes */
+  --font-size-29xl: 48px;
+  --font-size-xl: 20px;
+  --web-body-text-big-size: 17px;
+
+  /* Colors */
+  --subtitle-text: #78847b;
+  --color-gray-100: #21242d;
+  --color-black: #000;
+  --color-goldenrod: #f5c249;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: normal;
+  background-color: var(--color-gray-100);
+}
+
+button {
+  cursor: pointer;
+}
